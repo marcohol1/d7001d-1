@@ -26,11 +26,3 @@ curl -X POST \
 		"content": "This is the content of the new post.",
 		"status": "publish"
 	}'
-
-Then create a Python script based on the the Chat output, debug it, get it working, and then save the file as "lab-11-a.py".
-
-Then write a brand new Python script to get a list of the WordPress users, loop through the users, and print only the username.  Save the file as "lab-11-b.py".
-
-Then write a brand new Python script, to loop through all users, and update all users, as in "lab-11-a.py".  Save the file as "lab-11-c.py".
-
-Good Luck, Teacher Todd
