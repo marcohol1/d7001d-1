@@ -1,10 +1,10 @@
 #!/bin/bash
-user="put your username here"
+username="put your username here"
 api_key_1="put your api-key-1 here"
 base_url="https://toddbooth.com/wp-json/wp/v2"
 
 curl -X POST \
-	-u "${user}:${api_key_1}" \
+	-u "${username}:${api_key_1}" \
 	"${base_url}/posts/" \
 	-H "Content-Type: application/json" \
 	-d '{
